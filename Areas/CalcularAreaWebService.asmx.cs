@@ -18,12 +18,6 @@ namespace Areas
     {
 
         [WebMethod]
-        public string HelloWorld()
-        {
-            return "Hola a todos";
-        }
-
-        [WebMethod]
         public decimal areacuadrado(decimal LADO)
         {
             Area c = new Area();
